@@ -2,6 +2,11 @@
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 import numpy as np
+# 在我的 notebook 里，要设置下面两行才能显示中文
+plt.rcParams['font.family'] = ['sans-serif']
+# 如果是在 PyCharm 里，只要下面一行，上面的一行可以删除
+plt.rcParams['font.sans-serif'] = ['SimHei']
+
 #可视化词向量
 def plot_with_labels(low_dim_embs,labels,filename='tsne.png'):
     assert low_dim_embs.shape[0]>=len(labels), "More labels than embeddings"
