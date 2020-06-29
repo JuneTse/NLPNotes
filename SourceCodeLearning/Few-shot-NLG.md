@@ -1,4 +1,9 @@
 ## Few-Shot NLG代码学习
+### 数据
+
+* 处理后
+> * field2word.txt: field id对应的bpe单词id, 一个field对应三个bpe单词
+
 
 ### 模型
 * 模型输入
