@@ -9,7 +9,7 @@
 * 模型输入
 > * context: infobox的信息，属性名和对应的值使用bpe编码，得到id形式的矩阵, 输入到GPT模型中[batchsize,len], 用来生成第一个单词。
 > * gpt_context: ??
-> * decoder_field_input_input: 已经知道decoder每个位置的field类型了??
+> * decoder_field_input_input: 已经知道decoder每个位置的field类型了??  #训练的时候已知，预测的时候动态从encoder的输入中推理得到field信息。
 > * decoder_pos_input: ??
 > * decoder_rpos_input: ??
 
