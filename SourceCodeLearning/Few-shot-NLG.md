@@ -3,7 +3,7 @@
 
 * 处理后
 > * field2word.txt: field id对应的bpe单词id, 一个field对应三个bpe单词
-
+> * vocab_local.txt: 词表中每个单词是否出现在训练集中，0表示没有出现，1表示出现
 
 ### 模型
 * 模型输入
